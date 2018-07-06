@@ -1,29 +1,28 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>QtGuiApplicationClass</class>
- <widget class="QMainWindow" name="QtGuiApplicationClass" >
-  <property name="objectName" >
-   <string notr="true">QtGuiApplicationClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QMainWindow" name="QtGuiApplicationClass">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>600</width>
-	<height>400</height>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>QtGuiApplication</string>
+  <property name="windowTitle">
+   <string>2048</string>
   </property>
-  <widget class="QMenuBar" name="menuBar" />
-  <widget class="QToolBar" name="mainToolBar" />
-  <widget class="QWidget" name="centralWidget" />
-  <widget class="QStatusBar" name="statusBar" />
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(187, 173, 161);
+border-radius : 5px;</string>
+   </property>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="QtGuiApplication.qrc"/>
+  <include location="QtGuiApplication.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>
